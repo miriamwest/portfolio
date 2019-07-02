@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+
+    <title>Miriam West</title>
+
+  <link href='https://fonts.googleapis.com/css?family=Georgia:300,400,700' rel='stylesheet' type='text/css'>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+  <header>
+    <h1>Miriam West</h1>
+    <hr/>
+    <nav>
+      <a href="link"><span>Bio</span></a>
+      <a href="link"><span>Contact</span></a>
+      <a href="http://abarisbooks.com/"><span>Archive</span></a>
+    </nav>
+    <hr/>
+  </header>
+  
+<div id="blahblah" class="bd-example">
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://scontent-dfw5-1.cdninstagram.com/vp/9d0c140dcbcaac3c3d730b141def3661/5D8A71CB/t51.2885-15/e35/56480407_2288401561223151_7771033922079123337_n.jpg?_nc_ht=scontent-dfw5-1.cdninstagram.com" class="d-block w-100" alt="dogwood blossoms in washington dc">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Dogwood Blossoms</h5>
+          <p>Shaw, Washington, DC</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/Users/miriamwest/Desktop/CODING/mwest/rmutt.jpg" class="d-block w-100" alt="shiny gold hand dryer named r mutt">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Shiny R. Mutt</h5>
+          <p>Hong Kong Market, Gretna, LA</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://scontent-atl3-1.cdninstagram.com/vp/dfeba8d4eb422f53b64347626be7da5b/5DC35E55/t51.2885-15/e15/11256207_371840909689867_1463481802_n.jpg?_nc_ht=scontent-atl3-1.cdninstagram.com" class="d-block w-100" alt="apples picked in upstate connecticut">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Apple Harvest</h5>
+          <p>Silverman's Farm, Easton, CT</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://scontent-mia3-1.cdninstagram.com/vp/20164e306ace9a441003bdef1dfc5807/5D9220DA/t51.2885-15/sh0.08/e35/s640x640/12751612_972262186144614_1897184553_n.jpg?_nc_ht=scontent-mia3-1.cdninstagram.com" class="d-block w-100" alt="painting of clouds in progress">
+        <div class="carousel-caption d-none d-md-block">
+           <h5>Evening Sunset</h5>
+          <p>Bayou St. John, New Orleans, LA</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+ 
+    
+
+  <div class ="container">
+    <div class = "text-center">
+      <h2>Creating with Form &amp; Function</h2>
+      <!-- <a class="btn btn-primary" 
+         href="#" role="button">Explore</a> -->
+    </div>
+  </div>
+
+
+<section>
+  <div class="row">
+    <figure class="col-sm-6">
+      <p>Coding &amp; Graphic Design</p>
+      <img src="/Users/miriamwest/Desktop/CODING/mwest/graphic.jpg">
+    
+    </figure>
+     <figure class="col-sm-6">
+       <p>Floral Design</p>
+       <img src="/Users/miriamwest/Desktop/CODING/mwest/weddingflowers.jpg">
+       
+    </figure>
+  </div>
+  <div class ="row">
+     <figure class="col-sm-6">
+       <p>Painting &amp; Photography</p>
+       <img src="/Users/miriamwest/Desktop/CODING/mwest/seaworthy.jpg">
+    </figure>
+     <figure class="col-sm-6">
+       <p>Mixed Media</p>
+       <img src="/Users/miriamwest/Desktop/CODING/mwest/rhino.jpg">
+    </figure>
+  </div>
+  </section>
+
+<footer>
+  <div class="row">
+    <p class="col-sm-4">
+      &copy; 2019 Miriam West</p>
+
+     <p><ul class="col-sm-8">
+  <li class="col-sm-1">
+          <a href="https://www.linkedin.com/in/miriamwest"><i class='fab-fa-linkedin'></i></a>
+        </li>
+  <li class="col-sm-1">
+    <a href="https://www.instagram.com/staywildwest/"><i class='fab-fa-instagram'></i></a>
+</li>
+<li class="col-sm-1">
+<a href="https://www.etsy.com/shop/Westernesse"><i class='fab-fa-etsy'></i></a>
+</li>
+  <li class="col-sm-1">
+      <a href="https://www.patreon.com/preview/ee52af541b7e49319d8dfe0c6b1c880a"><i class='fab-fa-patreon'></i></a>
+    </li>
+  <li class="col-sm-1">
+<<<<<<< HEAD
+       <a href="https://github.com/miriamwest/portfolio.git"><i class="fab-fa-git-square"></i></a>
+  </li></ul></p></div></footer>
+=======
+       <a href="https://github.com/miriamwest/portfolio.git"><i class='fab-fa-git-square'></i></a>
+  </li></ul></div></footer>
+>>>>>>> new-page
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
+

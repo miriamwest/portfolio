@@ -3,6 +3,7 @@ body {
   width:100%;
   font-family: Pacifico, Georgia;
   font-weight: 800;
+  text-align:center;
   color: #f7a2aa;
   align-items: center;
   align-content: center;
@@ -58,19 +59,34 @@ width: 10%;
 
 #carousel-item{
   /*width:100%;*/
-  height: 300px;
+  /*height: 300px;*/
   margin-left:0px;
   margin-right:0px;
   padding-bottom:100px;
 }
 .carousel-item img{
   /*width: 100%;*/
-  height: 300px;
+  /*height: 300px;*/
   display: center;
   margin: 0px;
+  object-fit: contain;
+}
+.carousel-item:nth-child(1){
+  margin-top: -250px;
+}
+.carousel-item:nth-child(2){
+  margin-top: -250px;
+}
+.carousel-item:nth-child(4){
+  margin-top: -250px;
+}
+.carousel-item:nth-child(5){
+  margin-top: -250px;
 }
 div #carouselExampleCaptions{
 width: 100%;
+max-height: 600px;
+overflow: hidden;
 }
 
 section .container img{
@@ -80,7 +96,7 @@ section .container img{
 }
 section .row img{
   margin: 50px;
-  width: 100%;
+  width: 500px;
   display: inline-block;
 }
 section .col-sm-3 img{
@@ -88,11 +104,28 @@ section .col-sm-3 img{
   width: 100%;
   display: inline-block;
 }
-figure .col-sm-6{
-  text-align: center;
-  display:center;
+footer {
+  font-size: 12px;
+  padding: 20px 0;
 }
 
+footer .col-sm-1 {
+  float: right;
+  display:inline-block;
+  color:#669999;
+
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li i {
+  width: 32px;
+  height: 32px;
+  font-size:24px;
+  font-color: #xf08c;
+}
 /*.btn.btn-primary {
   border-radius: 2px;
   border: 0px;
@@ -112,23 +145,3 @@ figure .col-sm-6{
   margin: 0 0 0px;
 }*/
 
-footer {
-  font-size: 12px;
-  padding: 20px 0;
-}
-
-footer .col-sm-1 {
-  float: right;
-  display:inline-block;
-}
-
-footer ul {
-  list-style: none;
-}
-
-footer li i {
-  width: 32px;
-  height: 32px;
-  font-size:24px;
-  font-color: #xf08c;
-}

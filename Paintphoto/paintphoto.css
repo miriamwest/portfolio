@@ -1,1 +1,90 @@
-
+body {
+  width:100%;
+  font-family: Pacifico, Georgia;
+  font-weight: 800;
+  text-align:center;
+  color: #f7a2aa;
+  align-items: center;
+  align-content: center;
+  display: inline-block;
+}
+header {
+  padding: 22px 0;
+  display: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+header .row,
+footer .row {
+  display: center;
+  align-items: center;
+  align-content: center;
+}
+header h1 {
+  font-weight: 600;
+  margin: 0;
+  display: center;
+  align-items: center;
+  align-content: center;
+}
+header nav {
+  display:center;
+  padding: 18px;
+  align-items: center;
+  align-content: center;
+}
+header span {
+  padding: 0 22px;
+  margin: 0;
+  display: center;
+  align-items: center;
+  align-content: center;
+}
+header hr{
+  border-width: 2px;
+  border-color: #f7a2aa;
+}
+section .container img{
+  margin: 50px;
+  width: 100%;
+  display: inline-block;
+}
+section .row{
+  margin: 0px;
+  width: 500px;
+  display: inline-block;
+}
+section .col-sm-3 img{
+  margin: 50px;
+  width: 100%;
+  display: inline-block;
+}
+}
+figure .col-sm-4{
+  display: center;
+  flex-wrap: wrap;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.h3 ul{
+	text-align: left;
+}
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+footer .col-sm-1 {
+  float: right;
+  display:inline-block;
+}
+footer ul {
+  list-style: none;
+}
+footer .col-sm-8 {
+  width: 32px;
+  height: 32px;
+  font-size:24px;
+  font-color: #xf08c;
